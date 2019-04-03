@@ -1,0 +1,1 @@
+move_entity(lengthdir_x(argument0, argument1), lengthdir_y(argument0, argument1));

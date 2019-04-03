@@ -1,0 +1,1 @@
+isCollided = false;
