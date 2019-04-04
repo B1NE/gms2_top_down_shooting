@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "UIManager",
     "eventList": [
-        
+        {
+            "id": "53e43362-b4ac-4e32-86a9-b776bbbb459c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "4f737d2a-21be-4688-9638-780bfef53bd7"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -1,0 +1,145 @@
+Converting GML script: ${project_dir}\scripts\zui_create\zui_create.gml
+Converted description /// @description zui_create(x,y,object,[depth])/// @param x
+/// @param y
+/// @param object
+/// @param [depth]
+
+Converting GML script: ${project_dir}\scripts\zui_destroy\zui_destroy.gml
+Converted description /// @description zui_destroy()
+
+Converting GML script: ${project_dir}\scripts\zui_add_child\zui_add_child.gml
+Converted description /// @description zui_add_child(id) */// @param id
+
+Converting GML script: ${project_dir}\scripts\zui_remove_child\zui_remove_child.gml
+Converted description /// @description zui_remove_child(id) */// @param id
+
+Converting GML script: ${project_dir}\scripts\zui_set_size\zui_set_size.gml
+Converted description /// @description zui_set_size(width,height)/// @param width
+/// @param height
+
+Converting GML script: ${project_dir}\scripts\zui_set_width\zui_set_width.gml
+Converted description /// @description zui_set_width(width)/// @param width
+
+Converting GML script: ${project_dir}\scripts\zui_set_height\zui_set_height.gml
+Converted description /// @description zui_set_height(height)/// @param height
+
+Converting GML script: ${project_dir}\scripts\zui_set_position\zui_set_position.gml
+Converted description /// @description zui_set_position(x,y)/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\zui_set_anchor\zui_set_anchor.gml
+Converted description /// @description zui_set_anchor(anchorx,anchory)/// @param anchorx
+/// @param anchory
+
+Converting GML script: ${project_dir}\scripts\zui_set_scale\zui_set_scale.gml
+Converted description /// @description zui_set_scale(scalex,scaley)/// @param scalex
+/// @param scaley
+
+Converting GML script: ${project_dir}\scripts\zui_set_visible\zui_set_visible.gml
+Converted description /// @description zui_set_visible(visible)/// @param visible
+
+Converting GML script: ${project_dir}\scripts\zui_set_enabled\zui_set_enabled.gml
+Converted description /// @description zui_set_enabled(visible)/// @param visible
+
+Converting GML script: ${project_dir}\scripts\zui_set_depth\zui_set_depth.gml
+Converted description /// @description zui_set_enabled(visible)/// @param visible
+
+Converting GML script: ${project_dir}\scripts\zui_get_x\zui_get_x.gml
+Converted description /// @description zui_get_x()
+
+Converting GML script: ${project_dir}\scripts\zui_get_y\zui_get_y.gml
+Converted description /// @description zui_get_y()
+
+Converting GML script: ${project_dir}\scripts\zui_get_mouse_x\zui_get_mouse_x.gml
+Converted description /// @description zui_get_mouse_x()
+
+Converting GML script: ${project_dir}\scripts\zui_get_mouse_y\zui_get_mouse_y.gml
+Converted description /// @description zui_get_mouse_y()
+
+Converting GML script: ${project_dir}\scripts\zui_get_width\zui_get_width.gml
+Converted description /// @description zui_get_width()
+
+Converting GML script: ${project_dir}\scripts\zui_get_height\zui_get_height.gml
+Converted description /// @description zui_get_height()
+
+Converting GML script: ${project_dir}\scripts\zui_get_hover\zui_get_hover.gml
+Converted description /// @description zui_get_hover()
+
+Converting GML script: ${project_dir}\scripts\zui_get_parent\zui_get_parent.gml
+Converted description /// @description zui_get_parent()
+
+Converting GML script: ${project_dir}\scripts\zui_get_visible\zui_get_visible.gml
+Converted description /// @description zui_get_visible()
+
+Converting GML script: ${project_dir}\scripts\zui_get_visible_in_hierarchy\zui_get_visible_in_hierarchy.gml
+Converted description /// @description zui_get_visible_in_hierarchy()
+
+Converting GML script: ${project_dir}\scripts\zui_get_enabled\zui_get_enabled.gml
+Converted description /// @description zui_get_enabled()
+
+Converting GML script: ${project_dir}\scripts\zui_get_enabled_in_hierarchy\zui_get_enabled_in_hierarchy.gml
+Converted description /// @description zui_get_enabled_in_hierarchy()
+
+Converting GML script: ${project_dir}\scripts\zui_draw\zui_draw.gml
+Converted description /// @description zui_draw() *
+
+Converting GML script: ${project_dir}\scripts\zui_update\zui_update.gml
+Converted description /// @description zui_update() *
+
+Converting GML script: ${project_dir}\scripts\zui_update_begin\zui_update_begin.gml
+Converted description /// @description zui_update_begin() *
+
+Converting GML script: ${project_dir}\scripts\zui_x_child_compare\zui_x_child_compare.gml
+Converted description /// @description zui_x_child_compare(id0,id1) */// @param id0
+/// @param id1
+
+Converting GML script: ${project_dir}\scripts\zui_x_child_swap\zui_x_child_swap.gml
+Converted description /// @description zui_x_child_swap(id0, id1) */// @param id0
+/// @param  id1
+
+Converting GML script: ${project_dir}\scripts\zui_x_node_init\zui_x_node_init.gml
+Converted description /// @description zui_x_node_init() *
+
+Converting GML script: ${project_dir}\scripts\zui_shared_qsort\zui_shared_qsort.gml
+Converted description /// @description zui_shared_qsort(left, right, compare, swap)/// @param left
+/// @param  right
+/// @param  compare
+/// @param  swap
+
+Converting GML script: ${project_dir}\scripts\ui_draw_sprite_panel\ui_draw_sprite_panel.gml
+Converted description /// @description ui_draw_sprite_panel(sprite,subimg,border,x,y,width,height)/// @param sprite
+/// @param subimg
+/// @param border
+/// @param x
+/// @param y
+/// @param width
+/// @param height
+
+Converting GML script: ${project_dir}\scripts\ui_lerp_filter\ui_lerp_filter.gml
+Converted description /// @description ui_lerp_filter(value,start,end)/// @param value
+/// @param start
+/// @param end
+
+Converting GML script: ${project_dir}\scripts\ui_show_popup\ui_show_popup.gml
+Converted description /// @description ui_show_popup(caption)/// @param caption
+
+Converting GML script: ${project_dir}\scripts\test_callback_button\test_callback_button.gml
+Converted description /// @description test_callback_button(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\test_callback_slider\test_callback_slider.gml
+Converted description /// @description test_callback_slider(id,value)/// @param id
+/// @param value
+
+Font fntMain has been converted to font family Verdana (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fntMain\fntMain.gms1.png
+Added compatibility script 'd3d/d3d_transform_add_scaling.gml'
+Added compatibility script 'd3d/d3d_transform_add_translation.gml'
+Added compatibility script 'd3d/d3d_transform_set_identity.gml'
+Added compatibility script 'd3d/d3d_transform_set_translation.gml'
+Added compatibility script 'd3d/d3d_transform_stack_pop.gml'
+Added compatibility script 'd3d/d3d_transform_stack_push.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'd3d/__init_d3d.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

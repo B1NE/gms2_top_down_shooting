@@ -1,3 +1,6 @@
+
+/*
+
 // weapon change button create.
 with(instance_create_layer(0, 0, "UI", objWeaponChangeUI))
 {
@@ -8,4 +11,19 @@ with(instance_create_layer(0, 0, "UI", objWeaponChangeUI))
 with(instance_create_layer(0, 0, "UI", objTimer))
 {
 	
+}
+
+*/
+
+with (zui_main()) 
+{
+	with(zui_create(zui_get_width() * 0.5, 25, objTimer))
+	{
+		
+	}
+	
+	with(zui_create(zui_get_width() - 340 - 10, zui_get_height() - 50 - 10, objWeaponChangeUI))
+	{
+		
+	}
 }

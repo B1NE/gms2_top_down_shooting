@@ -1,3 +1,5 @@
+if(global.__is_hover) return;
+
 for(var i = 0;i < finger_count;++i)
 {	
 	var pressed = device_mouse_check_button_pressed(i, mb_left);
@@ -5,6 +7,7 @@ for(var i = 0;i < finger_count;++i)
 	var fired = device_mouse_check_button(i, mb_left);
 	
 	// objClickable check.
+	/*
 	if(pressed || released || fired) && (finger_state[i] == touch_state.none)
 	{
 		var posX = device_mouse_x(i);
@@ -106,6 +109,7 @@ for(var i = 0;i < finger_count;++i)
 		
 		if(ui_count > 0) return;
 	}
+	*/
 
 	if(pressed) // begin.
 	{

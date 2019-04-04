@@ -1,4 +1,30 @@
 // weapon change button create.
+zui_set_size(340, 100);
+zui_set_anchor(0, 0.5);
+
+with(zui_create(10, zui_get_height() * 0.5, objWeaponButton))
+{
+	zui_set_anchor(0, 0.5);
+	zui_set_size(100, 100);
+}
+
+with(zui_create(120, zui_get_height() * 0.5, objWeaponButton))
+{
+	zui_set_anchor(0, 0.5);
+	zui_set_size(100, 100);
+}
+
+with(zui_create(230, zui_get_height() * 0.5, objWeaponButton))
+{
+	zui_set_anchor(0, 0.5);
+	zui_set_size(100, 100);
+}
+
+/*
+with (zui_create(zui_get_width() - __width & 0.5, zui_get_height() - __height * 0.5 , objTimerLabel)) 
+{
+	other.position_label = id;
+}
 
 // create position set.
 var view_width = camera_get_view_width(view_camera[0]);
@@ -30,3 +56,4 @@ for(var i = 0;i < buttonCount;i++)
 		ui_touch_height = buttonSize;
 	}
 }
+*/
