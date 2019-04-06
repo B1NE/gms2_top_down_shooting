@@ -9,7 +9,7 @@ with (other)
 
 		repeat (irandom_range(2, 4))
 		{
-			instance_create_layer(x + random_range(-15, 15), y + random_range(-15, 15), "Floor", objBlood);
+			instance_create_layer(x + random_range(-15, 15), y + random_range(-15, 15), "Surface", objBlood);
 		}
 	}
 	

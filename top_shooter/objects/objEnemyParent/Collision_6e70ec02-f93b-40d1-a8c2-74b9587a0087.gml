@@ -13,5 +13,6 @@ if (entity_data[? e_cur_data.hp] <= 0)
 		}
 	}
 
+	add_exp(1);
 	instance_destroy();
 }

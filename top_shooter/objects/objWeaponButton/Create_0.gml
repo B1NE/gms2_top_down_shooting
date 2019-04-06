@@ -1,7 +1,7 @@
 event_inherited();
-/*
-depth = global.ui_depth--;
 
-weapon_sprite_name = "";
+weapon_sprite_index = 0;
 weapon_id = 0;
-*/
+
+is_reloading = false;
+reloading_value = 0;

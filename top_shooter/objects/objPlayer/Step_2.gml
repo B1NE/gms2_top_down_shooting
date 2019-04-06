@@ -1,7 +1,11 @@
-if(entity_data[? e_cur_data.hp] <= 0)
+if(entity_data[? e_cur_data.hp] <= 0 && global.game_speed > 0)
 {
-	if(!instance_exists(objResultUI))
+	global.game_speed = 0;
+	with (zui_main()) 
 	{
-		instance_create_layer(x, y, "UI", objResultUI);
+		with(zui_create(zui_get_width() * 0.5, zui_get_height() * 0.5, objResultUI))
+		{
+		
+		}
 	}
 }

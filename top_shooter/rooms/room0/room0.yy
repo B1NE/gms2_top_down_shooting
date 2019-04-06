@@ -154,8 +154,8 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Surface",
-            "id": "9bf9e64f-b079-4d87-a671-792b56af2af1",
+            "name": "Floor",
+            "id": "9fa7a1b5-7a98-4351-bf48-d2b18b90b229",
             "depth": 500,
             "grid_x": 32,
             "grid_y": 32,
@@ -166,7 +166,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_3B1D0E31","id": "76f5b8d7-df70-4304-8dc3-854e7fdd9153","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3B1D0E31","objId": "19381765-302d-452e-9877-765aeed44132","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 736,"y": -32}
+
             ],
             "layers": [
 
@@ -180,8 +180,8 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Floor",
-            "id": "24f39993-9ff5-459e-8359-d099aa7905fd",
+            "name": "Surface",
+            "id": "9bf9e64f-b079-4d87-a671-792b56af2af1",
             "depth": 600,
             "grid_x": 32,
             "grid_y": 32,
@@ -192,7 +192,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_3B1D0E31","id": "76f5b8d7-df70-4304-8dc3-854e7fdd9153","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3B1D0E31","objId": "19381765-302d-452e-9877-765aeed44132","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 736,"y": -32}
             ],
             "layers": [
 

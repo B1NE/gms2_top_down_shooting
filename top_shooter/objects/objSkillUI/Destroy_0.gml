@@ -1,0 +1,1 @@
+global.game_speed = before_game_speed;

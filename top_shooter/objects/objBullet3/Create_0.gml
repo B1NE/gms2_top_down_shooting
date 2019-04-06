@@ -2,11 +2,11 @@ event_inherited();
 
 #region bullet_data setting.
 
-bullet_data[? b_set_data.speed] = 4;
+bullet_data[? b_set_data.speed] = 6;
 bullet_data[? b_set_data.damage] = 1;
 bullet_data[? b_set_data.force] = 2;
 
-alpha_value = 0.3;
+alpha_value = 0.4;
 scale_value = 0.2;
 rotation_value = random_range(0, 360);
 isCollided = false;

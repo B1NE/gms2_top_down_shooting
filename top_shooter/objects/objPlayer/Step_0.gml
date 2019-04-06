@@ -23,15 +23,17 @@ else
 	image_speed = 0;
 }
 
-if(os_type == os_windows)
+if(global.game_speed > 0)
 {
-	spr_angle = point_direction(x, y, mouse_x, mouse_y);
+	if(os_type == os_windows)
+	{
+		spr_angle = point_direction(x, y, mouse_x, mouse_y);
+	}
+	else
+	{
+		spr_angle = InputManager.rotation_value;
+	}
 }
-else
-{
-	spr_angle = InputManager.rotation_value;
-}
-
 
 if(os_type == os_windows)
 {

@@ -1,5 +1,7 @@
 event_inherited();
 
+draw_set_color(c_white);
+
 var x1 = x + lengthdir_x(40, spr_angle - 15);
 var x2 = x + lengthdir_x(40, spr_angle + 15);
 var x3 = x + lengthdir_x(50, spr_angle);

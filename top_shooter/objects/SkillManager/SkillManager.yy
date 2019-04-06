@@ -1,18 +1,18 @@
 {
-    "id": "4f737d2a-21be-4688-9638-780bfef53bd7",
+    "id": "7dccc5d5-bd29-4629-a97a-6278c11dada3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "UIManager",
+    "name": "SkillManager",
     "eventList": [
         {
-            "id": "53e43362-b4ac-4e32-86a9-b776bbbb459c",
+            "id": "188b47b0-c805-4b00-9d9e-45be1e1b431c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "4f737d2a-21be-4688-9638-780bfef53bd7"
+            "m_owner": "7dccc5d5-bd29-4629-a97a-6278c11dada3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -34,5 +34,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "visible": false
 }

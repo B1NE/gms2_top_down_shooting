@@ -22,6 +22,11 @@ with (zui_main())
 		
 	}
 	
+	with(zui_create(zui_get_width() - 200 - 10, 10, objLevelUI))
+	{
+		
+	}
+	
 	with(zui_create(zui_get_width() - 340 - 10, zui_get_height() - 50 - 10, objWeaponChangeUI))
 	{
 		
