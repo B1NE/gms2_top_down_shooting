@@ -1,5 +1,6 @@
 zui_set_size(400, 216);
- 
+zui_set_anchor(0.5, 0.5);
+
 with (zui_create(0, 0, objUIWindowCaption)) {
  caption = "Window";
  draggable = 1;

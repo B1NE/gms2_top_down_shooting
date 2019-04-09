@@ -1639,14 +1639,6 @@
             }
         },
         {
-            "Key": "e9c6ff22-ff14-4432-a03f-9059dfe4d652",
-            "Value": {
-                "id": "0d5b4d7c-69a7-40d4-9e1f-0ef7ce493214",
-                "resourcePath": "scripts\\touch_state_convert\\touch_state_convert.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "ead20345-a484-44b4-9a48-8edcc98799ab",
             "Value": {
                 "id": "1ec76296-7eb7-4bbd-9854-ed74faf350a0",
@@ -1793,7 +1785,6 @@
         "c723b4f1-1b1c-446a-9481-258da5f5ec95",
         "39d683a8-66a9-4d61-8b5a-d67e25e5b24e",
         "ab41d48a-df99-42fd-aa68-cf3a9ba0bc92",
-        "e9c6ff22-ff14-4432-a03f-9059dfe4d652",
         "a6004ca0-6eae-41e8-8d35-8f44627b0b11",
         "fdfebd90-615d-4fa7-8892-24070d69e304",
         "c4ddb4a0-176d-4e35-ace7-3d6756624acc",

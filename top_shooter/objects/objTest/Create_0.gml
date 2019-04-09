@@ -1,10 +1,10 @@
 with (zui_main()) {
  var window_id;
  
- with (zui_create(zui_get_width() * 0.5, zui_get_height() * 0.5, objTestWindow, -1)) {
+ with (zui_create(zui_get_width() * 0.5, zui_get_height() * 0.5, objTestWindow, -1)){ 
   window_id = id;
  }
- 
+ /*
  // Scale controller
  with (zui_create(zui_get_width() * 0.5, zui_get_height() - 80, objUISlider)) {
   zui_set_anchor(0.5, 0);
@@ -20,5 +20,6 @@ with (zui_main()) {
   caption = "Scale";
   color = $ffffff;
  }
+ */
 }
 
