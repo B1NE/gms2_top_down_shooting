@@ -1,3 +1,4 @@
+/*
 if(pressed)
 {
 	var touch_x = device_mouse_x_to_gui(0);
@@ -21,3 +22,4 @@ if(pressed)
 		}
 	}	
 }
+*/

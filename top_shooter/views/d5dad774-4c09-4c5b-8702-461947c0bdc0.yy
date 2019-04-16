@@ -6,7 +6,8 @@
     "children": [
         "5c62a852-a27e-4d11-b0e5-74c4f2a4f21d",
         "468b602c-f874-4d72-af22-1f1bcdbc32bb",
-        "393d6187-ade7-4ad0-8ee2-3a1a0193a89e"
+        "393d6187-ade7-4ad0-8ee2-3a1a0193a89e",
+        "4f9a9ff2-5b3d-4188-aedf-4f27fa63c59e"
     ],
     "filterType": "GMObject",
     "folderName": "skillUI",

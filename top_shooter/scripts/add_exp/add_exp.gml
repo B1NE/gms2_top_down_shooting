@@ -12,6 +12,11 @@ with(PlayerLevelManager)
 		cur_level++;
 		before_target_exp = next_target_exp;
 		next_target_exp += dist + int64(dist * level_up_multi_value);
+		
+		with(SkillManager)
+		{
+			skill_point++;
+		}
 	}
 	
 	cur_gauge_value = (cur_exp - before_target_exp) / (next_target_exp - before_target_exp);

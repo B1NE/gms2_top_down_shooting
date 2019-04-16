@@ -9,7 +9,7 @@ offsety = 0;
 touch_origin_x = 0;
 touch_origin_y = 0;
 is_dragging = false;
-threshold = 5;
+//threshold = 5;
 
 add_width = 500;
 add_height = 250;
@@ -25,6 +25,8 @@ if(!instance_exists(SkillManager))
 	instance_create_layer(0, 0, "Managers", SkillManager);
 }
 
+skill_buttons = ds_list_create();
+
 var skill_list = SkillManager.skill_list;
 
 // center.
@@ -34,7 +36,9 @@ var start_y = __height * 0.5;
 with(zui_create(start_x, start_y, objSkillButton))
 {
 	var data = skill_list[| count];
-	caption = data[? skill_data.id];
+	skill_id = data[? skill_data.id];
+	caption = skill_id;
+	ds_list_add(other.skill_buttons, id);
 	count++;
 }
 
@@ -50,7 +54,9 @@ for(var i = 0;i < 6;++i)
 	with(zui_create(d_x, d_y, objSkillButton))
 	{
 		var data = skill_list[| count];
-		caption = data[? skill_data.id];
+		skill_id = data[? skill_data.id];
+		caption = skill_id;
+		ds_list_add(other.skill_buttons, id);
 	}
 	count++;
 }
@@ -66,7 +72,9 @@ for(var i = 0;i < 6;++i)
 	with(zui_create(d_x, d_y, objSkillButton))
 	{
 		var data = skill_list[| count];
-		caption = data[? skill_data.id];
+		skill_id = data[? skill_data.id];
+		caption = skill_id;
+		ds_list_add(other.skill_buttons, id);
 	}
 	count++;
 }
@@ -82,7 +90,9 @@ for(var i = 0;i < 6;++i)
 	with(zui_create(d_x, d_y, objSkillButton))
 	{
 		var data = skill_list[| count];
-		caption = data[? skill_data.id];
+		skill_id = data[? skill_data.id];
+		caption = skill_id;
+		ds_list_add(other.skill_buttons, id);
 	}
 	count++;
 	
@@ -95,7 +105,9 @@ for(var i = 0;i < 6;++i)
 		with(zui_create(add_x, add_y, objSkillButton))
 		{
 			var data = skill_list[| count];
-			caption = data[? skill_data.id];
+			skill_id = data[? skill_data.id];
+			caption = skill_id;
+			ds_list_add(other.skill_buttons, id);
 		}
 		count++;
 	}
@@ -112,7 +124,9 @@ for(var i = 0;i < 6;++i)
 	with(zui_create(d_x, d_y, objSkillButton))
 	{
 		var data = skill_list[| count];
-		caption = data[? skill_data.id];
+		skill_id = data[? skill_data.id];
+		caption = skill_id;
+		ds_list_add(other.skill_buttons, id);
 	}
 	count++;
 }
@@ -121,6 +135,8 @@ with(zui_create(__width - add_width * 0.5 - 60, add_height * 0.5 + 60, objSkillC
 {
 	origin_x = zui_get_x();
 	origin_y = zui_get_y();
-	other.close_button = id;
+	//other.close_button = id;
 	caption = "x";
 }
+
+update_skill_state();

@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "4f9a9ff2-5b3d-4188-aedf-4f27fa63c59e",
+            "Value": {
+                "id": "36797bc3-3fda-43b0-902f-5876afc9d25b",
+                "resourcePath": "objects\\objSkillDescUI\\objSkillDescUI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "50b8f894-53e3-44d3-a9c3-24746efc5369",
             "Value": {
                 "id": "44554368-ba8b-401c-b9b9-8a76136712d1",
@@ -620,6 +628,14 @@
                 "id": "c30cb0b3-8246-4deb-9407-9a33c4d37b3a",
                 "resourcePath": "objects\\DebugManager\\DebugManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "56482c23-e52f-4e35-92d3-8f46231115d6",
+            "Value": {
+                "id": "5e964b80-a81f-459a-88ce-6e4a93590ac2",
+                "resourcePath": "scripts\\get_skill_level\\get_skill_level.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -795,6 +811,14 @@
             "Value": {
                 "id": "b05c139e-8b2e-4396-b943-630c74b7309e",
                 "resourcePath": "scripts\\zui_set_scale\\zui_set_scale.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7bf7e971-a478-4053-8995-7f97d594c26b",
+            "Value": {
+                "id": "be6677e2-a4fb-4c61-8745-d2f4a261156f",
+                "resourcePath": "scripts\\update_skill_state\\update_skill_state.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1148,6 +1172,14 @@
                 "id": "30897749-ec99-4651-b9f9-7abbf2f0edfe",
                 "resourcePath": "objects\\objUILabel\\objUILabel.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "aa641404-daf8-4b91-8d63-d387d27d4abc",
+            "Value": {
+                "id": "3e74ba18-34b3-4e3f-a5d5-8d2b58eaa499",
+                "resourcePath": "views\\aa641404-daf8-4b91-8d63-d387d27d4abc.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1551,6 +1583,14 @@
             }
         },
         {
+            "Key": "dc8cd00e-c100-473d-bf7d-f605c48774ee",
+            "Value": {
+                "id": "08363cd1-47f2-4747-a7b0-7322b571e6c2",
+                "resourcePath": "scripts\\skill_levelup\\skill_levelup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "de88fd2f-d7c3-4913-a8e0-5cb757a2af64",
             "Value": {
                 "id": "cbf124f4-481e-475a-90fa-84d1a33fc0b0",
@@ -1668,6 +1708,14 @@
                 "id": "d153ce41-07bf-457b-ac5c-d837a3041dc0",
                 "resourcePath": "views\\f05452bb-a2ae-41de-9d51-8781b2cd1009.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f2c9d98c-aabc-4718-81b1-105e2694c312",
+            "Value": {
+                "id": "aedee772-8853-4af4-a0e4-5738ffa6099e",
+                "resourcePath": "scripts\\get_skill_state\\get_skill_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1841,7 +1889,11 @@
         "9526f62e-c7a7-447e-ab84-14a0ed73b595",
         "86d2521c-015d-42e0-9173-f439d14e84c8",
         "05facbb6-aafe-4309-b30f-72ec6f9fde7e",
-        "e5a50757-5771-49a3-9c2d-6f5a96c50504"
+        "e5a50757-5771-49a3-9c2d-6f5a96c50504",
+        "f2c9d98c-aabc-4718-81b1-105e2694c312",
+        "56482c23-e52f-4e35-92d3-8f46231115d6",
+        "dc8cd00e-c100-473d-bf7d-f605c48774ee",
+        "7bf7e971-a478-4053-8995-7f97d594c26b"
     ],
     "tutorial": ""
 }
