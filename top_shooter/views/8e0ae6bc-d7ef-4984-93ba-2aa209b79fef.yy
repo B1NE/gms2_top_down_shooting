@@ -4,8 +4,8 @@
     "mvc": "1.1",
     "name": "8e0ae6bc-d7ef-4984-93ba-2aa209b79fef",
     "children": [
-        "8a6e5e53-166e-493b-9e35-6efb57a28d81",
-        "411c6699-0ab3-4bf1-bcf5-4cbb0edbd483"
+        "6321b0d2-d0af-4e78-a5eb-1de61345502a",
+        "bb923796-f5ce-44a6-b68b-50b461b4bbfd"
     ],
     "filterType": "GMSprite",
     "folderName": "baseUI",

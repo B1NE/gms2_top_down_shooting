@@ -1,0 +1,1 @@
+draw_sprite(sprTime, 0, __width * 0.5, __height * 0.5);

@@ -17,12 +17,12 @@ with(instance_create_layer(0, 0, "UI", objTimer))
 
 with (zui_main()) 
 {
-	with(zui_create(zui_get_width() * 0.5, 25, objTimer))
+	with(zui_create(zui_get_width() * 0.5, 50, objTimer))
 	{
 		
 	}
 	
-	with(zui_create(zui_get_width() - 200 - 10, 10, objLevelUI))
+	with(zui_create(0, 0, objLevelUI))
 	{
 		
 	}
