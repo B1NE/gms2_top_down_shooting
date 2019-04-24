@@ -16,8 +16,6 @@ ds_map_add(weapon_data, w_cur_data.reaction_value, 0);
 ds_map_add(weapon_data, w_cur_data.bullet_count, 30);
 ds_map_add(weapon_data, w_cur_data.state, w_state.idle);
 
-weapon_data_debug(self);
-
 #endregion
 
 #region object_target

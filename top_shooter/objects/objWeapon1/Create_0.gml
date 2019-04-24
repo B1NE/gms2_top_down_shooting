@@ -14,8 +14,6 @@ weapon_data[? w_set_data.reaction_add] = 0.2;
 weapon_data[? w_cur_data.reaction_value] = weapon_data[? w_set_data.reaction_min];
 weapon_data[? w_cur_data.bullet_count] = weapon_data[? w_set_data.bullet_count];
 
-weapon_data_debug(self);
-
 #endregion
 
 #region bullet setting.

@@ -11,7 +11,8 @@
         "0bb3493b-fa65-4f3b-b13b-cb37f15bf718",
         "33895454-dde5-4a1f-8b53-a942dae53bb8",
         "d5439418-18a9-4671-ba61-3ac434e79ed6",
-        "7dccc5d5-bd29-4629-a97a-6278c11dada3"
+        "7dccc5d5-bd29-4629-a97a-6278c11dada3",
+        "deb06492-6b25-4b9a-a5c1-e0a6c7b72873"
     ],
     "filterType": "GMObject",
     "folderName": "managers",

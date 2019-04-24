@@ -65,4 +65,4 @@ add_skill(36, "skill_36", "skill_36_desc", 0, 1, skill_type.level, 27, 28);
 add_skill(37, "skill_37", "skill_37_desc", 0, 1, skill_type.level, 30, 31);
 
 
-skill_point = 1;
+skill_point = 100;

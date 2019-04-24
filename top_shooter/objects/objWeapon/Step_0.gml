@@ -26,7 +26,8 @@ if (weapon_data[? w_cur_data.shot_delay] <= 0)
 	}
 	
 	weapon_data[? w_cur_data.reaction_value] = reaction_value;
-	weapon_data[? w_cur_data.shot_delay] = weapon_data[? w_set_data.shot_delay];
+	//weapon_data[? w_cur_data.shot_delay] = weapon_data[? w_set_data.shot_delay];
+	weapon_set_shot_delay();
 	
 	if(--weapon_data[? w_cur_data.bullet_count] <= 0)
 	{

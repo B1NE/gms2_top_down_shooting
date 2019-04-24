@@ -16,7 +16,7 @@ entity_data[? e_cur_data.attack_delay] -= global.game_speed;
 
 if(instance_exists(objPlayer))
 {
-	if(instance_place(x +horizontal, y + vertical, objPlayer))
+	if(instance_place(x + horizontal, y + vertical, objPlayer))
 	{
 		if(entity_data[? e_cur_data.attack_delay] < 0)
 		{

@@ -14,5 +14,6 @@ entity_data[? e_add_data.move_speed] = level * 0.2;
 
 entity_data[? e_cur_data.hp] = entity_data[? e_set_data.hp] + entity_data[? e_add_data.hp];
 entity_data[? e_cur_data.move_speed] = entity_data[? e_set_data.move_speed] + entity_data[? e_add_data.move_speed];
+entity_data[? e_cur_data.weapon_reload_time] = entity_data[? e_set_data.weapon_reload_time];
 entity_data[? e_cur_data.attack_delay] = entity_data[? e_set_data.attack_delay];
 entity_data[? e_cur_data.damage] = entity_data[? e_set_data.damage];

@@ -38,4 +38,13 @@ enum b_set_data
 weapon_list = ds_list_create();
 weapon_map_instance_id = ds_map_create();
 
+/*
+weapon_add(instance_create_layer(0, 0, "Weapons", objWeapon1));
+weapon_add(instance_create_layer(0, 0, "Weapons", objWeapon2));
+weapon_add(instance_create_layer(0, 0, "Weapons", objWeapon3));
+*/
+
+instance_deactivate_layer("Weapons");
+
+weapon_slot_count = 1;
 cur_weapon = -1;

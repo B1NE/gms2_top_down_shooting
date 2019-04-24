@@ -9,7 +9,7 @@ with(WeaponManager)
 		if(weapon_data[? w_cur_data.state] == w_state.reloading)
 		{
 			reloading = true;
-			value = weapon_data[? w_cur_data.reload_delay] / weapon_data[? w_set_data.reload_delay];
+			value = weapon_data[? w_cur_data.reload_delay] / get_reload_time();
 		}
 		else
 		{

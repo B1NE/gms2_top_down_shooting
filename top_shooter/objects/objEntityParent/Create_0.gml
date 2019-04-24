@@ -11,13 +11,14 @@
 */
 enum e_set_data
 {
-	hp = 0,
-	attack_delay = 1,
-	move_speed = 2,
-	damage = 3,
-	shield = 4,
-	force = 5,
-	rotation_speed = 6,
+	hp = 0,	
+	move_speed = 1,
+	damage = 2,
+	shield = 3,
+	force = 4,
+	rotation_speed = 5,
+	weapon_reload_time = 6,
+	attack_delay = 7,
 }
 
 /*
@@ -26,10 +27,11 @@ enum e_set_data
 enum e_cur_data
 {
 	hp = 100,
-	attack_delay = 101,
-	move_speed = 102,
-	damage = 103,
-	shield = 104,
+	move_speed = 101,
+	damage = 102,
+	shield = 103,
+	weapon_reload_time = 106,
+	attack_delay = 107,
 }
 
 /*
@@ -38,33 +40,37 @@ enum e_cur_data
 enum e_add_data
 {
 	hp = 1000,
-	attack_delay = 1001,
-	move_speed = 1002,
-	damage = 1003,
-	shield = 1004,
+	move_speed = 1001,
+	damage = 1002,
+	shield = 1003,
+	weapon_reload_time = 1006,
+	attack_delay = 1007,
 }
 
 entity_data = ds_map_create();
 
 ds_map_add(entity_data, e_set_data.hp, 0);
-ds_map_add(entity_data, e_set_data.attack_delay, 1);
 ds_map_add(entity_data, e_set_data.move_speed, 0);
 ds_map_add(entity_data, e_set_data.damage, 0);
 ds_map_add(entity_data, e_set_data.shield, 0);
 ds_map_add(entity_data, e_set_data.force, 0);
 ds_map_add(entity_data, e_set_data.rotation_speed, 0);
+ds_map_add(entity_data, e_set_data.weapon_reload_time, 1);
+ds_map_add(entity_data, e_set_data.attack_delay, 1);
 
 ds_map_add(entity_data, e_cur_data.hp, 0);
-ds_map_add(entity_data, e_cur_data.attack_delay, 1);
 ds_map_add(entity_data, e_cur_data.move_speed, 0);
 ds_map_add(entity_data, e_cur_data.damage, 0);
 ds_map_add(entity_data, e_cur_data.shield, 0);
+ds_map_add(entity_data, e_cur_data.weapon_reload_time, 1);
+ds_map_add(entity_data, e_cur_data.attack_delay, 1);
 
 ds_map_add(entity_data, e_add_data.hp, 0);
-ds_map_add(entity_data, e_add_data.attack_delay, 0);
 ds_map_add(entity_data, e_add_data.move_speed, 0);
 ds_map_add(entity_data, e_add_data.damage, 0);
 ds_map_add(entity_data, e_add_data.shield, 0);
+ds_map_add(entity_data, e_add_data.weapon_reload_time, 0);
+ds_map_add(entity_data, e_add_data.attack_delay, 0);
 
 // entity들이 회전하는 값. direction 사용 안함.
 spr_angle = 0;
