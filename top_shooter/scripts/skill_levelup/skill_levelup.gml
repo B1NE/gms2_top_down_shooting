@@ -29,13 +29,18 @@ with(SkillManager)
 			 *                      36
 			 */
 			 
-			case 1: // 다음 스킬을 배울 수 있는 디폴트 스킬 [랜덤 총 선택]
+			/// depth 0.
+			#region skill_1 // 다음 스킬을 배울 수 있는 디폴트 스킬 [랜덤 총 선택]
+			case 1: 
 			{
 				weapon_random_change();
 			}
 			break;
+			#endregion
 			
-			case 2: // player의 이동 속도 0.1 만큼 올립니다.
+			// depth 1.
+			#region skill_2 // player의 이동 속도 0.1 만큼 올립니다.
+			case 2: 
 			{
 				with(objPlayer)
 				{
@@ -44,8 +49,9 @@ with(SkillManager)
 				}
 			}
 			break;
-			
-			case 3: // player의 연사 속도를 높입니다.
+			#endregion
+			#region skill_3 // player의 연사 속도를 높입니다.
+			case 3: 
 			{
 				with(objPlayer)
 				{
@@ -54,8 +60,9 @@ with(SkillManager)
 				}
 			}
 			break;
-			
-			case 4: // player의 장전 속도를 높입니다.
+			#endregion
+			#region skill_4 // player의 장전 속도를 높입니다.
+			case 4: 
 			{
 				with(objPlayer)
 				{
@@ -64,6 +71,63 @@ with(SkillManager)
 				}
 			}
 			break;
+			#endregion
+			#region skill_5 // player의 데미지를 높입니다.
+			case 5: 
+			{
+				with(objPlayer)
+				{
+					entity_data[? e_add_data.damage] += 1;
+					entity_data[? e_cur_data.damage] += 1;
+				}
+			}
+			break;
+			#endregion
+			#region skill_6 // player의 쉴드량을 높입니다.
+			case 6: 
+			{
+				with(objPlayer)
+				{
+					entity_data[? e_add_data.shield] += 5;
+					//entity_data[? e_cur_data.damage] += 1;
+				}
+			}
+			break;
+			#endregion
+			#region skill_7 // player의 넉백양을 높입니다.
+			case 7: 
+			{
+				with(objPlayer)
+				{
+					entity_data[? e_cur_data.force] += 1;
+					entity_data[? e_add_data.force] += 1;
+				}
+			}
+			break;
+			#endregion
+			
+			// depth 2.
+			#region skill_8 // player의 주변으로 핵폭발을 일으킵니다.
+			case 8: 
+			{
+				
+			}
+			break;
+			#endregion
+			#region skill_9 // 5초간 적들을 얼립니다.
+			case 9:
+			{
+				
+			}
+			break;
+			#endregion
+			#region skill_10 // 랜덤 총 선택.
+			case 10:
+			{
+				weapon_random_change();
+			}
+			break;
+			#endregion
 		}
 	}
 }

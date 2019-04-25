@@ -30,8 +30,9 @@ with (zui_main())
 	with(zui_create(zui_get_width(), 0, objLevelUpButton))
 	{
 		zui_set_anchor(1, 0);
-		zui_set_size(147, 72);
+		zui_set_size(200, 150);
 	}
+	
 	
 	/*
 	with(zui_create(zui_get_width() - 340 - 10, zui_get_height() - 50 - 10, objWeaponChangeUI))

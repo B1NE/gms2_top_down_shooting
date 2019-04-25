@@ -16,7 +16,7 @@ with (other)
 	var speedXNormal = other.hspeed / other.speed;
 	var speedYNormal = other.vspeed / other.speed;
 	
-	var weapon_force = other.bullet_data[? b_set_data.force];
+	var weapon_force = other.bullet_data[? b_set_data.force] + objPlayer.entity_data[? e_cur_data.force];
 	var enemy_force = entity_data[? e_set_data.force];
 	force_x = speedXNormal * max(0, (weapon_force - enemy_force));
 	force_y = speedYNormal * max(0, (weapon_force - enemy_force));

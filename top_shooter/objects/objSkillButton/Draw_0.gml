@@ -17,7 +17,7 @@ if(state == skill_state.lock)
 }
 else if(state == skill_state.max_level)
 {
-	caption = "max_level";
+	caption = "max";
 }
 else if(state == skill_state.level_up)
 {

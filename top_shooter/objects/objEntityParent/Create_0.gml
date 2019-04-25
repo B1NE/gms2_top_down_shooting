@@ -30,6 +30,7 @@ enum e_cur_data
 	move_speed = 101,
 	damage = 102,
 	shield = 103,
+	force = 104,
 	weapon_reload_time = 106,
 	attack_delay = 107,
 }
@@ -43,6 +44,7 @@ enum e_add_data
 	move_speed = 1001,
 	damage = 1002,
 	shield = 1003,
+	force = 1004,
 	weapon_reload_time = 1006,
 	attack_delay = 1007,
 }
@@ -62,6 +64,7 @@ ds_map_add(entity_data, e_cur_data.hp, 0);
 ds_map_add(entity_data, e_cur_data.move_speed, 0);
 ds_map_add(entity_data, e_cur_data.damage, 0);
 ds_map_add(entity_data, e_cur_data.shield, 0);
+ds_map_add(entity_data, e_cur_data.force, 0);
 ds_map_add(entity_data, e_cur_data.weapon_reload_time, 1);
 ds_map_add(entity_data, e_cur_data.attack_delay, 1);
 
@@ -69,6 +72,7 @@ ds_map_add(entity_data, e_add_data.hp, 0);
 ds_map_add(entity_data, e_add_data.move_speed, 0);
 ds_map_add(entity_data, e_add_data.damage, 0);
 ds_map_add(entity_data, e_add_data.shield, 0);
+ds_map_add(entity_data, e_add_data.force, 0);
 ds_map_add(entity_data, e_add_data.weapon_reload_time, 0);
 ds_map_add(entity_data, e_add_data.attack_delay, 0);
 

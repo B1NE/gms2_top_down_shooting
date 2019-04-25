@@ -13,6 +13,7 @@ entity_data[? e_cur_data.hp] = entity_data[? e_set_data.hp];
 entity_data[? e_cur_data.attack_delay] = entity_data[? e_set_data.attack_delay];
 entity_data[? e_cur_data.weapon_reload_time] = entity_data[? e_set_data.weapon_reload_time];
 entity_data[? e_cur_data.move_speed] = entity_data[? e_set_data.move_speed];
+entity_data[? e_cur_data.force] = entity_data[? e_set_data.force];
 
 spr_angle = 0;
 
