@@ -1,5 +1,5 @@
 if (zui_get_hover()) {
- if (pressed)
+ if (__pressed)
   draw_set_color($cccccc);
  else
   draw_set_color($eeeeee); 

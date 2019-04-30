@@ -1,10 +1,10 @@
-if (pressed)
+if (__pressed)
 {
-	pressed = 0;
+	__pressed = 0;
 	var parent_dragging = false;
 	with(zui_get_parent())
 	{
-		pressed = 0;
+		__pressed = 0;
 		parent_dragging = is_dragging;
 	}
 	

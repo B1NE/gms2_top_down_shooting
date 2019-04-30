@@ -1,8 +1,6 @@
 before_game_speed = global.game_speed;
 global.game_speed = 0;
 
-pressed = 0;
-
 offsetx = 0;
 offsety = 0;
 

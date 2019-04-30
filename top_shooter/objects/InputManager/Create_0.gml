@@ -11,7 +11,7 @@ enum touch_state
 }
 
 // n개의 터치까지만 받는다.
-finger_count = 4;
+finger_count = 2;
 finger_state = array_create(finger_count, touch_state.none);
 
 // move var

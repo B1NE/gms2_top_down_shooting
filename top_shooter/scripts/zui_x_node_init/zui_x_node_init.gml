@@ -11,6 +11,7 @@ __childs = 0;
 __parent = noone;
 __auto = 1;
 __hover = 0;
+__pressed = 0;
 __enabled = 1;
 __visible = 1;
 __dx = 0;

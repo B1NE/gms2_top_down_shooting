@@ -1,5 +1,5 @@
 /*
-if(pressed)
+if(__pressed)
 {
 	var touch_x = device_mouse_x_to_gui(0);
 	var touch_y = device_mouse_y_to_gui(0);
@@ -17,7 +17,7 @@ if(pressed)
 		var target_y = clamp(device_mouse_y_to_gui(0) + offsety, origin_y - add_height * 0.5, origin_y + add_height * 0.5);
 		zui_set_position(target_x, target_y);
 		with(close_button)
-		{
+		{ 
 			zui_set_position(origin_x + other.origin_x - target_x, origin_y + other.origin_y - target_y);
 		}
 	}	

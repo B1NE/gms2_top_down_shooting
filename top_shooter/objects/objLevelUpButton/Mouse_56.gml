@@ -1,7 +1,1 @@
-if (pressed) {
- pressed = 0;
- if (zui_get_hover()) {
-  event_user(0);
- }
-}
-
+event_inherited();

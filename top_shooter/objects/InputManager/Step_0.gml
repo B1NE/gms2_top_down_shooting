@@ -1,10 +1,28 @@
-if(global.__is_hover) return;
+if(global.__is_hover)
+{
+	for(var i = 0;i < finger_count;++i)
+	{
+		finger_state[i] = touch_state.none;
+	}
+	
+	
+	is_moving = false;
+	move_start_point = [0, 0];
+	move_horizontal_value = 0;
+	move_vertical_value = 0;
+	is_rotationing = false;
+	rotation_start_point = [0, 0];
+	
+	return;
+}
 
 for(var i = 0;i < finger_count;++i)
 {	
 	var pressed = device_mouse_check_button_pressed(i, mb_left);
 	var released = device_mouse_check_button_released(i, mb_left);
 	var fired = device_mouse_check_button(i, mb_left);
+	
+	if(!pressed && !released && !fired) continue;
 	
 	if(pressed) // begin.
 	{

@@ -1,4 +1,4 @@
-if (pressed) {
- pressed = 0;
+if (__pressed) {
+ __pressed = 0;
 }
 

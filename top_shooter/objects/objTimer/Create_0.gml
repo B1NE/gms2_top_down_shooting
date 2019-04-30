@@ -1,3 +1,5 @@
+zui_set_enabled(false);
+
 zui_set_size(259, 94);
 zui_set_anchor(0.5, 0.5);
 

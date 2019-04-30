@@ -1,3 +1,3 @@
-pressed = 0;
+//pressed = 0;
 callback = -1;
 

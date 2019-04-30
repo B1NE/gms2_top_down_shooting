@@ -1,4 +1,4 @@
 if (zui_get_hover()) {
- pressed = 1;
+ __pressed = 1;
 }
 

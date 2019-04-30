@@ -1,6 +1,6 @@
 if (zui_get_hover()) {
 	var targetColor = $cccccc;
- if (pressed)
+ if (__pressed)
   targetColor = $cccccc;
  else
   targetColor = $eeeeee;
